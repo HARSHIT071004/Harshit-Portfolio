@@ -5,14 +5,13 @@ import HeroGradient from "./components/heroSection/HeroGradient";
 import HeroMain from "./components/heroSection/HeroMain";
 import NavbarMain from "./components/navbar/NavbarMain";
 import ProjectsMain from "./components/projectsSection/ProjectsMain";
-import SkillsMain from "./components/skillsSection/skillsMain";
-
+import SkillsMain from "./components/SkillsMain";
 import SubSkills from "./components/skillsSection/SubSkills";
 import SubHeroMain from "./components/subHeroSection/SubHeroMain";
 import FooterMain from "./footer/FooterMain";
 import React from "react";
 
-function App() {
+const App = () => {
   return (
     <main className="font-body text-white relative overflow-hidden">
       <NavbarMain />

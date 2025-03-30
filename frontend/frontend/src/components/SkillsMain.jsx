@@ -1,8 +1,8 @@
-import AllSkills from "./Allskills";
-import AllSkillsSM from "./AllskillsSM";
-import SkillsText from "./SkillText";
+import AllSkills from "./skillsSection/Allskills";
+import AllSkillsSM from "./skillsSection/AllskillsSM";
+import SkillsText from "./skillsSection/SkillText";
 import { motion } from "framer-motion";
-import { fadeIn } from "../../frameMotion/variant";
+import { fadeIn } from "../frameMotion/variant";
 import React from "react";
 
 const SkillsMain = () => {
