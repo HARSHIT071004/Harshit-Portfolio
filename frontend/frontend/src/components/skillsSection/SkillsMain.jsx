@@ -4,6 +4,7 @@ import SkillsText from "./SkillText";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../frameMotion/variant";
 import React from "react";
+
 const SkillsMain = () => {
   return (
     <div id="skills">
