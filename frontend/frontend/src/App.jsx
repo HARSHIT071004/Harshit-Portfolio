@@ -1,6 +1,5 @@
 import AboutMeMain from "./components/aboutMeSection/AboutMeMain";
 import ContactMeMain from "./components/contactmeSection/ContactMeMain";
-// import ExperienceMain from "./components/experienceSection/ExperienceMain";
 import HeroGradient from "./components/heroSection/HeroGradient";
 import HeroMain from "./components/heroSection/HeroMain";
 import NavbarMain from "./components/navbar/NavbarMain";
@@ -21,7 +20,6 @@ const App = () => {
       <AboutMeMain />
       <SkillsMain/>
       <SubSkills />
-      {/* <ExperienceMain /> */}
       <ProjectsMain />
       <ContactMeMain />
       <FooterMain />
