@@ -6,7 +6,7 @@ import NavbarMain from "./components/navbar/NavbarMain";
 import ProjectsMain from "./components/projectsSection/ProjectsMain";
 import SkillsMain from "./components/SkillsMain";
 import SubSkills from "./components/skillsSection/SubSkills";
-import SubHeroMain from "./components/subHeroSection/SubHeroMain";
+import SubHeroMain from "./components/subHeroSection/SubHeroMain.jsx";
 import FooterMain from "./footer/FooterMain";
 import React from "react";
 
