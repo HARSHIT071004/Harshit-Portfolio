@@ -1,17 +1,60 @@
-import React from "react";
-const AboutMeImage = () => {
-    return (
-      <div className="h-[500px] w-[300px] relative">
-        <div className="h-[500px] w-[500px] rounded-[300px] absolute overflow-hidden">
-          <img
-            src="/images/port2.jpg"
-            alt="About Me Image"
-            className="h-full w-auto object-cover"
-          />
-        </div>
-        <div className="h-[500px] w-[250px] bg-orange absolute bottom-[-30px] left-[-30px] rounded-bl-[120px] rounded-tr-[120px] rounded-br-[20px] rounded-tl-[20px] -z-10"></div>
-      </div>
-    );
-  };
+// import React from "react";
+// const AboutMeImage = () => {
+//     return (
+//       <div className="h-[500px] w-[300px] relative">
+//         <div className="h-[500px] w-[500px] rounded-[300px] absolute overflow-hidden">
+//           <img
+//             src="/images/port2.jpg"
+//             alt="About Me Image"
+//             className="h-full w-auto object-cover"
+//           />
+//         </div>
+//         <div className="h-[500px] w-[250px] bg-orange absolute bottom-[-30px] left-[-30px] rounded-bl-[120px] rounded-tr-[120px] rounded-br-[20px] rounded-tl-[20px] -z-10"></div>
+//       </div>
+//     );
+//   };
   
-  export default AboutMeImage;
+//   export default AboutMeImage;
+
+
+// import React from "react";
+
+// const AboutMeImage = () => {
+//   return (
+//     <div className="h-[500px] w-[300px] sm:h-[300px] sm:w-[200px] relative">
+//       <div className="h-[500px] w-[500px] sm:h-[300px] sm:w-[300px] rounded-full absolute overflow-hidden">
+//         <img
+//           src="/images/port2.jpg"
+//           alt="About Me Image"
+//           className="h-full w-full object-cover"
+//         />
+//       </div>
+//       <div className="h-[500px] w-[250px] sm:h-[250px] sm:w-[180px] bg-orange absolute bottom-[-30px] left-[-30px] rounded-bl-[120px] rounded-tr-[120px] rounded-br-[20px] rounded-tl-[20px] -z-10"></div>
+//     </div>
+//   );
+// };
+
+// export default AboutMeImage;
+
+
+
+
+
+import React from "react";
+
+const AboutMeImage = () => {
+  return (
+    <div className="h-[500px] w-[300px] sm:h-[300px] sm:w-[200px] relative">
+      <div className="h-[500px] w-[500px] sm:h-[300px] sm:w-[300px] rounded-full absolute overflow-hidden">
+        <img
+          src="/images/port2.jpg"
+          alt="About Me Image"
+          className="h-full w-full object-cover"
+        />
+      </div>
+      <div className="h-[500px] w-[250px] sm:h-[250px] sm:w-[180px] bg-orange absolute bottom-[-30px] left-[-30px] rounded-bl-[120px] rounded-tr-[120px] rounded-br-[20px] rounded-tl-[20px] -z-10"></div>
+    </div>
+  );
+};
+
+export default AboutMeImage;
