@@ -1,6 +1,6 @@
 import AllSkills from "./skillsSection/Allskills";
 import AllSkillsSM from "./skillsSection/AllskillsSM";
-import SkillsText from "./skillsSection/SkillText";
+// import SkillsText from "./skillsSection/SkillText";
 import { motion } from "framer-motion";
 import { fadeIn } from "../frameMotion/variant";
 import React from "react";
@@ -15,7 +15,7 @@ const SkillsMain = () => {
           whileInView="show"
           viewport={{ once: false, amount: 0.7 }}
         >
-          <SkillsText />
+          {/* <SkillsText /> */}
         </motion.div>
         <div className="bottom-[50px] absolute left-[50%] -translate-x-[50%] sm:hidden lg:block">
           <AllSkills />
