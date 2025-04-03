@@ -87,6 +87,7 @@ import { SiTypescript, SiRedux, SiNextdotjs, SiMongodb, SiExpress, SiGreensock, 
 import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../frameMotion/variant";
+import SkillsText from "./SkillText";
 
 const skills = [
   { skill: "HTML", icon: FaHtml5 },
@@ -108,7 +109,9 @@ const skills = [
 
 const AllSkills = () => {
   return (
+   
     <div className="py-12 bg-gray-100">
+       <div> <SkillsText/></div>
       <div className="flex flex-wrap justify-end gap-6 max-w-[1200px] mx-auto px-4">
         {skills.map((item, index) => (
           <motion.div
