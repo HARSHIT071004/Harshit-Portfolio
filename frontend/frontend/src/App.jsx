@@ -12,7 +12,7 @@ import React from "react";
 
 const App = () => {
   return (
-    <main className="font-body bg-[#rgb(255,255,255)] text-[#000000] relative overflow-hidden">
+    <main className="font-body bg-[rgb(255,255,255)] text-[#000000] relative overflow-hidden">
       <NavbarMain />
       <HeroMain />
       <HeroGradient />
