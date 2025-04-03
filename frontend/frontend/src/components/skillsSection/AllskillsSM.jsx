@@ -198,7 +198,7 @@ const AllSkillsSM = () => {
             className="flex flex-col items-center"
           >
             {React.createElement(item.icon, { className: "text-5xl text-orange-500" })}
-            <p className="text-center mt-3 text-gray-800 font-semibold">{item.skill}</p>
+            <p className="text-center mt-3 text-gray-900 font-semibold">{item.skill}</p>
           </motion.div>
         ))}
       </div>

@@ -125,7 +125,7 @@ const AllSkills = () => {
       >
         <SingleSkill
           text={item.skill}
-          imgSvg={React.createElement(item.icon, { className: "text-5xl text-orange-500" })}
+          imgSvg={React.createElement(item.icon, { className: "text-5xl text-gray-800" })}
         />
       </motion.div>
     ))}
