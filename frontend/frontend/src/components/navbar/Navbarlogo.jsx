@@ -22,10 +22,10 @@ import React from "react";
 const NavbarLogo = () => {
   return (
     <div>
-      <h1 className="text-white font-bold tracking-wide text-2xl sm:hidden md:block">
+      <h1 className="text-[rgb(2,68,48)] font-bold tracking-wide text-2xl sm:hidden md:block">
         Harshit Sharma
       </h1>
-      <h1 className="text-white font-special font-extrabold sm:text-3xl md:hidden">
+      <h1 className="text-[rgb(2,68,48)] font-special font-extrabold sm:text-3xl md:hidden">
         AQ
       </h1>
     </div>

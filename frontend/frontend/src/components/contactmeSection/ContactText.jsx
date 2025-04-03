@@ -3,7 +3,7 @@ const ContactText = () => {
     return (
       <div>
         <h2 className="text-[#000000] text-3xl mb-4">Get In Touch</h2>
-        <p className="text-white">
+        <p className="text-[rgb(2,68,48)]">
           Feel free to reach out if you’d like to collaborate
           <br />
           you are just a few clicks away!

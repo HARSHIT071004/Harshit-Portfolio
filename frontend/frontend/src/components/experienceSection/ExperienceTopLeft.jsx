@@ -1,14 +1,14 @@
-import ExperienceInfo from "../experienceSection/experienceInfo";
+import ExperienceInfo from "../experienceSection/ExperienceInfo";
 import React from "react";
 const ExperienceTopLeft = () => {
   return (
     <div className="flex flex-col gap-6 w-[300px]">
-      <p className="text-white font-bold uppercase text-3xl font-special text-center">
+      <p className="text-[rgb(2,68,48)] font-bold uppercase text-3xl font-special text-center">
         Since 2022
       </p>
       <div className="flex justify-center items-center gap-4">
         <ExperienceInfo number="3" text="Years" />
-        <p className="font-bold text-6xl text-white">-</p>
+        <p className="font-bold text-6xl text-[rgb(2,68,48)]">-</p>
         <ExperienceInfo number="23" text="Websites" />
       </div>
       <p className="text-center">
