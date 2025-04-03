@@ -18,7 +18,7 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="md:text-[2.8rem] lg:text-6xl sm:text-4xl text-white font-bold uppercase"
+        className="md:text-[2.8rem] lg:text-6xl sm:text-4xl text-[rgb(2,68,48)] font-bold uppercase"
       >
         Harshit <br className="text-sm:hidden md:block" />Sharma
       </motion.h1>

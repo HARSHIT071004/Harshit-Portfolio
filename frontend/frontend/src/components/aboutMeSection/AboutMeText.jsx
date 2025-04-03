@@ -152,7 +152,7 @@ const AboutMeText = () => {
       <h2 className="text-6xl sm:text-6xl font-semibold text-[rgb(0,0,0)] mb-6 sm:mb-4">
         About Me
       </h2>
-      <p className="text-2xl sm:text-lg text-white leading-relaxed sm:w-full">
+      <p className="text-2xl sm:text-lg text-[rgb(2,68,48)] leading-relaxed sm:w-full">
         I am Harshit Sharma, a passionate Full-Stack Developer with a deep
         interest in building scalable and user-friendly web applications. As a fresher,
         I am eager to learn, experiment, and implement modern web technologies,
@@ -169,7 +169,7 @@ const AboutMeText = () => {
     duration={500}
     offset={-120}
     to="projects"
-    className="cursor-pointer text-white hover:text-gray-100 transition-all duration-500"
+    className="cursor-pointer text-[rgb(2,68,48)] hover:text-gray-500 transition-all duration-500"
   >
     My Projects
   </Link>
