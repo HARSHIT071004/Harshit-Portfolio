@@ -111,24 +111,27 @@ const AllSkills = () => {
   return (
    
     <div className="py-12 bg-gray-100">
-       <div> <SkillsText/></div>
-      <div className="flex flex-wrap justify-end gap-6 max-w-[1200px] mx-auto px-4">
-        {skills.map((item, index) => (
-          <motion.div
-            variants={fadeIn("left", `${index * 0.1}`)}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: false, amount: 0.3 }}
-            key={item.skill}
-          >
-            <SingleSkill
-              text={item.skill}
-              imgSvg={React.createElement(item.icon, { className: "text-5xl text-orange-500" })}
-            />
-          </motion.div>
-        ))}
-      </div>
-    </div>
+  <div className="text-center mb-8"> 
+    <SkillsText />
+  </div>
+  <div className="flex flex-wrap justify-end gap-6 max-w-[1200px] mx-auto px-4">
+    {skills.map((item, index) => (
+      <motion.div
+        variants={fadeIn("left", `${index * 0.1}`)}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.3 }}
+        key={item.skill}
+      >
+        <SingleSkill
+          text={item.skill}
+          imgSvg={React.createElement(item.icon, { className: "text-5xl text-orange-500" })}
+        />
+      </motion.div>
+    ))}
+  </div>
+</div>
+
   );
 };
 
