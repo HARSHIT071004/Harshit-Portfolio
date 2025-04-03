@@ -5,12 +5,12 @@ import React from "react";
 const HeroPic = () => {
   return (
     <motion.div
-      variants={fadeIn("left", 0.2)}
-      initial="hidden"
-      whileInView="show"
-      viewport={{ once: false, amount: 0 }}
-      className=" h-full flex items-center justify-center "
-    >
+    variants={fadeIn("left", 0.2)}
+    initial="hidden"
+    animate="show"
+    className="h-full z-[11] flex items-center justify-center"
+  >
+  
       <img
         src="/images/harshit.jpg"
         alt="Harshit Sharma"

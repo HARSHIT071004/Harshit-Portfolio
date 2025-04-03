@@ -34,7 +34,6 @@ import NavbarBtn from "./NavbarBtn";
 import NavbarToggler from "./NavbarToggler";
 import { useSelector } from "react-redux";
 import React from "react";
-
 const NavbarMain = () => {
   const menuOpen = useSelector((state) => state.menu.menuOpen);
   return (
@@ -46,7 +45,7 @@ const NavbarMain = () => {
         </div>
         <NavbarBtn />
       </div>
-      <div className="flex lg:hidden sm:flex p-6 sm:p-2 bg-black items-center justify-center rounded-full border-orange border-[0.5px] sm:h-[40px] sm:w-[40px] sm:bg-opacity-60 sm:backdrop-blur-md">
+      <div className="flex lg:hidden sm:flex p-6 sm:p-2 items-center justify-center rounded-full border-orange border-[0.5px] sm:h-[40px] sm:w-[40px] sm:bg-opacity-60 sm:backdrop-blur-md">
         <NavbarToggler />
       </div>
     </nav>

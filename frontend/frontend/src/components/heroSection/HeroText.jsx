@@ -9,7 +9,7 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="lg:text-2xl sm:text-xl  uppercase text-white "
+        className="lg:text-2xl sm:text-xl text-black uppercase  "
       >
         Full stack developer
       </motion.h2>
