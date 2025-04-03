@@ -79,14 +79,16 @@
 
 
 
-import React from "react";
-import SingleSkill from "./SingleSkill";
+
+
+import SingleSkill from "./Singleskill";
 import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaGitAlt, FaGithub } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiTypescript, SiRedux, SiNextdotjs, SiMongodb, SiExpress, SiGreensock, SiMysql } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../frameMotion/variant";
+import React from "react";
 
 const skills = [
   { skill: "HTML", icon: FaHtml5 },
@@ -108,14 +110,14 @@ const skills = [
 
 const AllSkills = () => {
   return (
-    <div className="py-16 bg-gray-100">
-      <div className="flex flex-wrap justify-center gap-8 max-w-[1200px] mx-auto px-6">
+    <div className="py-12 bg-gray-100">
+      <div className="flex flex-wrap justify-center gap-8 max-w-[1200px] mx-auto px-4">
         {skills.map((item, index) => (
           <motion.div
             variants={fadeIn("up", `${index * 0.1}`)}
             initial="hidden"
             whileInView="show"
-            viewport={{ once: true, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.3 }}
             key={item.skill}
           >
             <SingleSkill

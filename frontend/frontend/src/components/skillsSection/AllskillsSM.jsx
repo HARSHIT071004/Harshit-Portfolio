@@ -155,13 +155,30 @@
 
 
 
-import React from "react";
-import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaGitAlt, FaGithub, FaPython } from "react-icons/fa";
+
+
+
+
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiTypescript, SiRedux, SiNextdotjs, SiMongodb, SiExpress, SiGreensock, SiCplusplus, SiPostman } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { SiRedux } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { SiGreensock } from "react-icons/si";
+import { SiCplusplus } from "react-icons/si";
+import { FaPython } from "react-icons/fa";
+import { FaGitAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { SiPostman } from "react-icons/si";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../frameMotion/variant";
+import React from "react";
 
 const skills = [
   { skill: "HTML", icon: FaHtml5 },
@@ -185,19 +202,19 @@ const skills = [
 
 const AllSkillsSM = () => {
   return (
-    <div className="py-16 bg-gray-50">
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-10 max-w-[1200px] mx-auto px-6">
+    <div className="py-12 bg-gray-100">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 max-w-[1200px] mx-auto px-4">
         {skills.map((item, index) => (
           <motion.div
             variants={fadeIn("up", `${index * 0.1}`)}
             initial="hidden"
             whileInView="show"
-            viewport={{ once: true, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.3 }}
             key={item.skill}
             className="flex flex-col items-center"
           >
-            {React.createElement(item.icon, { className: "text-5xl text-orange-500" })}
-            <p className="text-center mt-3 text-gray-800 font-medium">{item.skill}</p>
+            {React.createElement(item.icon, { className: "text-6xl text-orange-500" })}
+            <p className="text-center mt-4 text-gray-800 font-semibold">{item.skill}</p>
           </motion.div>
         ))}
       </div>
