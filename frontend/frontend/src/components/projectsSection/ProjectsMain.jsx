@@ -105,7 +105,7 @@ const projects = [
     year: "Jan 2025",
     align: "left",
     image: "/images/Evemanimage.png",
-    link: "#",
+    link: "https://eveman-two.vercel.app/",
   },
   {
     name: "Medicure",
