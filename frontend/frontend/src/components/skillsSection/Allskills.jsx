@@ -80,7 +80,7 @@
 
 
 import React from "react";
-import SingleSkill from "./SingleSkill";
+import SingleSkill from "./Singleskill";
 import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaGitAlt, FaGithub } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiTypescript, SiRedux, SiNextdotjs, SiMongodb, SiExpress, SiGreensock, SiMysql } from "react-icons/si";
