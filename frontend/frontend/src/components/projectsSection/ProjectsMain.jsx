@@ -119,7 +119,7 @@ const projects = [
     year: "Feb 2025",
     align: "left",
     image: "/images/HeroVerse.png",
-    link: "https://heroverse-chi.vercel.app/",
+    link: "https://heroverse-kappa.vercel.app/",
   },
 ];
 
