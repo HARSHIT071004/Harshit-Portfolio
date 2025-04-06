@@ -12,9 +12,9 @@ const HeroPic = () => {
   >
   
       <img
-        src="/images/harshit.jpg"
+        src="/images/harshs.png"
         alt="Harshit Sharma"
-        className="h-[410px] z-[11] mt-7 rounded-[39%]"
+        className="h-[370px] z-[-19] mt-7 rounded-[25%]"
       />
 
 
