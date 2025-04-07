@@ -225,9 +225,6 @@
 
 
 
-
-
-
 import { motion } from "framer-motion";
 import { fadeIn } from "../../frameMotion/variant";
 import { PiHexagonThin } from "react-icons/pi";
@@ -240,14 +237,15 @@ const HeroPic = () => {
       initial="hidden"
       animate="show"
       className="relative z-[11] flex items-center justify-center w-full 
-                 md:justify-end md:pr-16" // Shifts right on laptop screens
+                 md:justify-end md:pr-16"
     >
-      {/* Wrapper for Hexagon + Image */}
-      <div className="relative flex items-center justify-center 
-                      h-[240px] w-[240px] 
-                      sm:h-[280px] sm:w-[280px] 
-                      md:h-[400px] md:w-[400px]
-                      xs:h-[200px] xs:w-[200px]" // Smaller size for phones
+      {/* Hexagon + Image Container */}
+      <div
+        className="relative flex items-center justify-center 
+                   h-[200px] w-[200px] 
+                   sm:h-[250px] sm:w-[250px] 
+                   md:h-[320px] md:w-[320px] 
+                   lg:h-[400px] lg:w-[400px]"
       >
         {/* Spinning Hexagon */}
         <div className="absolute inset-0 animate-[spin_20s_linear_infinite] blur-sm">
@@ -259,9 +257,8 @@ const HeroPic = () => {
           src="/images/harshs.png"
           alt="Harshit Sharma"
           className="relative z-[-10] 
-                    h-[140px] sm:h-[160px] md:h-[250px] 
-                    xs:h-[110px] // Smaller height for phones
-                    object-cover rounded-[25%] mr-4"
+                     h-[120px] sm:h-[160px] md:h-[220px] lg:h-[250px] 
+                     object-cover rounded-[25%]"
         />
       </div>
     </motion.div>

@@ -1,26 +1,34 @@
 import { PiHexagonThin } from "react-icons/pi";
 import React from "react";
+
 const HeroImage = () => {
   return (
     <div className="relative self-end h-full w-full items-center justify-center">
-      <div className=" h-full w-full">
-      <img
-  src="/images/harshit.jpg"
-  alt="Harshit Sharma"
-  className="w-auto h-auto md:max-w-[9000px] sm:max-w-[380px] absolute bottom-[0px] z-10 left-[50%] -translate-x-[50%]"
-/>
+      <div className="h-full w-full">
+        <img
+          src="/images/harshit.jpg"
+          alt="Harshit Sharma"
+          className="w-auto h-auto sm:max-w-[280px] md:max-w-[380px] lg:max-w-[450px] absolute bottom-0 z-10 left-1/2 -translate-x-1/2"
+        />
 
-        <div className="w-full h-full absolute  bottom-[-20%] -z-10 flex justify-center items-center rotate-90">
-          <PiHexagonThin className=" md:h-[90%] sm:h-[120%] min-h-[600px] w-auto text-[rgb(2,68,48)] opacity-70  animate-[spin_20s_linear_infinite] " />
+        {/* Hexagon 1 */}
+        <div className="absolute w-full h-full bottom-[-20%] sm:bottom-[-15%] md:bottom-[-10%] -z-10 flex justify-center items-center rotate-90">
+          <PiHexagonThin className="h-[90%] sm:h-[110%] md:h-[120%] w-auto text-[rgb(2,68,48)] opacity-70 animate-[spin_20s_linear_infinite]" />
         </div>
-        <div className="w-full h-full absolute  bottom-[-20%] -z-10 flex justify-center items-center rotate-90">
-          <PiHexagonThin className=" md:h-[90%] sm:h-[120%] blur-lg min-h-[600px] w-auto text-orange opacity-70  animate-[spin_20s_linear_infinite] " />
+
+        {/* Hexagon 2 (blur orange) */}
+        <div className="absolute w-full h-full bottom-[-20%] sm:bottom-[-15%] md:bottom-[-10%] -z-10 flex justify-center items-center rotate-90">
+          <PiHexagonThin className="h-[90%] sm:h-[110%] md:h-[120%] w-auto text-orange opacity-70 blur-lg animate-[spin_20s_linear_infinite]" />
         </div>
-        <div className="w-full h-full absolute  bottom-[-20%] -z-10 flex justify-center items-center">
-          <PiHexagonThin className=" md:h-[90%] sm:h-[120%] min-h-[600px] w-auto text-cyan opacity-70  animate-[spin_20s_linear_infinite] " />
+
+        {/* Hexagon 3 */}
+        <div className="absolute w-full h-full bottom-[-20%] sm:bottom-[-15%] md:bottom-[-10%] -z-10 flex justify-center items-center">
+          <PiHexagonThin className="h-[90%] sm:h-[110%] md:h-[120%] w-auto text-cyan opacity-70 animate-[spin_20s_linear_infinite]" />
         </div>
-        <div className="w-full h-full absolute  bottom-[-20%] -z-10 flex justify-center items-center">
-          <PiHexagonThin className=" md:h-[90%] sm:h-[120%] min-h-[600px] w-auto text-cyan opacity-70 blur-lg  animate-[spin_20s_linear_infinite] " />
+
+        {/* Hexagon 4 (blur cyan) */}
+        <div className="absolute w-full h-full bottom-[-20%] sm:bottom-[-15%] md:bottom-[-10%] -z-10 flex justify-center items-center">
+          <PiHexagonThin className="h-[90%] sm:h-[110%] md:h-[120%] w-auto text-cyan opacity-70 blur-lg animate-[spin_20s_linear_infinite]" />
         </div>
       </div>
     </div>
