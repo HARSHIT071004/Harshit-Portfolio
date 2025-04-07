@@ -15,7 +15,7 @@ const App = () => {
     <main className="font-body bg-[rgb(255,255,255)] text-[#000000] relative overflow-hidden">
       <NavbarMain />
       <HeroMain />
-      <HeroGradient />
+      <HeroGradient /> 
       <SubHeroMain />
       <AboutMeMain />
       <SkillsMain/>

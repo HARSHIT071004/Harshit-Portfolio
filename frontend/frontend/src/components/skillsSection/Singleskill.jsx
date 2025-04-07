@@ -29,11 +29,11 @@ const SingleSkill = ({ imgSvg, text }) => {
     >
       <div className="flex flex-col items-center gap-2">
         {/* Skill Icon */}
-        <div className="bg-white h-[90px] w-[90px] flex items-center justify-center rounded-xl shadow-md border-2 border-orange-400 group-hover:border-orange-500 group-hover:shadow-xl transition-all duration-400">
+        <div className="bg-black h-[90px] w-[90px] flex items-center justify-center rounded-xl shadow-md border-2 border-orange-400 group-hover:border-orange-500 group-hover:shadow-xl transition-all duration-400">
           {imgSvg}
         </div>
         {/* Skill Text */}
-        <p className="text-gray-900 font-semibold text-md">{text}</p>
+        <p className="text-gray-700 font-semibold text-md">{text}</p>
       </div>
       {/* Transparent Background Effect */}
       <div className="w-[70px] h-[100px]  absolute top-6 left-1/2 -translate-x-1/2 -z-10 rounded-xl group-hover:bg-orange-300/30 transition-all duration-400"></div>
