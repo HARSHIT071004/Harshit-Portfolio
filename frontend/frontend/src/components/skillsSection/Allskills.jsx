@@ -41,7 +41,7 @@ const AllSkills = () => {
     <section className="relative py-12 sm:py-16 md:py-20 min-h-[500px] overflow-hidden">
       {/* Glowing Background */}
       <div className="absolute inset-0  animate-pulse">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(0,255,255,0.2)_0%,_transparent_70%)] animate-glow" />
+        <div className="absolute inset-0 bg-[rgb(254,198,39)] animate-glow" />
       </div>
 
       {/* Outer Text */}
