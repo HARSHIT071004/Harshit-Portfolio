@@ -39,7 +39,7 @@ const AboutMeImage = () => {
       </div>
 
       {/* Decorative Background Shape */}
-      <div className="absolute bottom-0 left-0 w-[180px] h-[220px] md:w-[250px] md:h-[300px] bg-orange rounded-bl-[100px] rounded-tr-[100px] rounded-br-[20px] rounded-tl-[20px] -z-10 shadow-lg"></div>
+      <div className="absolute bottom-0 left-0 w-[180px] h-[220px] md:w-[250px] md:h-[300px] bg-orange rounded-bl-[100px] rounded-tr-[100px] rounded-br-[20px] rounded-tl-[20px] -z-10 "></div>
     </div>
   );
 };
