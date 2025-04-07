@@ -261,7 +261,7 @@ const HeroPic = () => {
           className="relative z-[-10] 
                     h-[140px] sm:h-[160px] md:h-[250px] 
                     xs:h-[110px] // Smaller height for phones
-                    object-cover rounded-[25%]"
+                    object-cover rounded-[25%] mr-4"
         />
       </div>
     </motion.div>

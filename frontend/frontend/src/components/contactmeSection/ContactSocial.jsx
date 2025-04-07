@@ -1,14 +1,22 @@
 import SingleContactSocial from "./SingleContactSocial";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FiGithub } from "react-icons/fi";
-import { FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
 import React from "react";
+
 const ContactSocial = () => {
   return (
-    <div className="flex gap-4">
-      <SingleContactSocial link="#" Icon={FaLinkedinIn} />
-      <SingleContactSocial link="#" Icon={FiGithub} />
-      <SingleContactSocial link="#" Icon={FaInstagram} />
+    <div className="flex justify-center gap-4">
+      <SingleContactSocial
+        link="https://www.linkedin.com/in/yourprofile"
+        Icon={FaLinkedinIn}
+      />
+      <SingleContactSocial
+        link="https://github.com/yourusername"
+        Icon={FaGithub}
+      />
+      <SingleContactSocial
+        link="https://www.instagram.com/yourhandle"
+        Icon={FaInstagram}
+      />
     </div>
   );
 };
