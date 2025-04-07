@@ -22,8 +22,6 @@
 
 
 
-
-
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useDispatch } from "react-redux";
 import { toggleMenu } from "../../state/menuSlice";
@@ -38,7 +36,11 @@ const NavbarToggler = () => {
 
   return (
     <button
-      className="text-2xl sm:text-xl p-3 sm:p-2 border border-cyan rounded-full bg-white/10 backdrop-blur-md hover:bg-white/20 hover:border-orange hover:shadow-lg transition-all duration-300"
+      className="block lg:hidden text-2xl sm:text-xl p-3 sm:p-2 
+                 border border-cyan rounded-full bg-white/10 
+                 backdrop-blur-md hover:bg-white/20 
+                 hover:border-orange hover:shadow-lg 
+                 transition-all duration-300"
       onClick={setToggleMenu}
     >
       <GiHamburgerMenu />
