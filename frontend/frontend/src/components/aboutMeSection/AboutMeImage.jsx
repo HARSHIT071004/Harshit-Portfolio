@@ -30,7 +30,7 @@ const AboutMeImage = () => {
   return (
     <div className="relative w-[200px] h-[300px] md:w-[300px] md:h-[400px]">
       {/* Image Wrapper */}
-      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 rounded-full overflow-hidden w-[200px] h-[200px] md:w-[300px] md:h-[300px] shadow-xl border-4 border-white">
+      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 rounded-full overflow-hidden w-[200px] h-[200px] md:w-[300px] md:h-[300px]  border-4 ">
         <img
           src="/images/port2.jpg"
           alt="About Me"
