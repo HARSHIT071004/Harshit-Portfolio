@@ -59,7 +59,7 @@ const SingleProject = ({ name, year, align, image, link }) => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.1 }}
-      className={`flex w-full sm:flex-col-reverse items-center gap-8 ${
+      className={`flex w-full sm:flex-col-reverse items-center  gap-8 ${
         align === "left" ? "md:flex-row" : "md:flex-row-reverse"
       } justify-end sm:flex-col`}
     >
@@ -84,9 +84,9 @@ const SingleProject = ({ name, year, align, image, link }) => {
         </a>
       </div>
 
-      <div className="max-h-[220px] max-w-[400px] rounded-xl overflow-hidden hover:scale-110 transform transition-all duration-500 ralative border border-white">
+      <div className="shadow-lg rounded-2xl border-black border-1  max-h-[220px] max-w-[400px]  overflow-hidden hover:scale-110 transform transition-all duration-500 ralative ">
         <div className="w-full h-full bg-cyan opacity-50 absolute top-0 left-0 hover:opacity-0 transition-all duration-500 md:block sm:hidden"></div>
-        <img src={image} alt="website image" className="w-full h-full" />
+        <img src={image} alt="website image" className="w-full h-full shadow-lg rounded-2xl border-black border-3xl" />
       </div>
     </motion.div>
   );

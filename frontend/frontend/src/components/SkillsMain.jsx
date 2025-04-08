@@ -42,7 +42,7 @@ const SkillsMain = () => {
           <SkillsText />
         </motion.div>
 
-          <div className="relative max-w-3xl mx-auto bg-white/10 backdrop-blur-lg rounded-3xl p-6 sm:p-8 md:p-10 shadow-[0_0_30px_rgba(0,255,255,0.2)] border border-cyan-500/30">
+          <div className="relative max-w-3xl mx-auto bg-white backdrop-blur-lg rounded-3xl p-6 sm:p-8 md:p-10 shadow-[0_0_30px_rgba(0,255,255,0.2)] border border-cyan-500/30">
             <AllSkills />
           </div>
         </div>

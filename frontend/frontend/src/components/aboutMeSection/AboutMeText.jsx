@@ -20,7 +20,7 @@
 //       <button className="border border-white rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-8 sm:mt-6  
 //   bg-gradient-to-r from-orange-400 to-orange-500 text-white shadow-lg hover:shadow-2xl  
 //   transition-all duration-500 ease-in-out transform hover:scale-105 hover:from-orange-500 hover:to-orange-600">
-  
+
 //   <Link
 //     spy={true}
 //     smooth={true}
@@ -55,13 +55,14 @@ import React from "react";
 const AboutMeText = () => {
   return (
     <div className="flex flex-col md:items-start items-center text-center md:text-left px-2 sm:px-4">
-      <h2 className="text-4xl sm:text-5xl md:text-6xl font-semibold text-black mb-4">
-        About Me
-      </h2>
-      <p className="text-base sm:text-lg md:text-2xl text-[rgb(2,68,48)] leading-relaxed sm:w-full max-w-[600px]">
-        I am Harshit Sharma, a passionate Full-Stack Developer with a deep
-        interest in building scalable and user-friendly web applications...
-      </p>
+    <h2 className="text-4xl sm:text-5xl md:text-6xl font-tech font-semibold tracking-wide text-white mb-4">
+  About Me
+</h2>
+
+
+<br/>
+      <p className="text-base sm:text-lg md:text-1xl text-[rgb(156,235,255)] leading-relaxed sm:w-full max-w-[600px]">
+        I’m Harshit Sharma, a passionate Full-Stack Developer with expertise in the MERN stack (MongoDB, Express.js, React, Node.js). I build scalable, high-performance web apps with responsive frontends and robust backends      </p>
       <button className="border border-white rounded-full py-2 px-4 text-base sm:text-lg flex gap-2 items-center mt-6 bg-gradient-to-r from-orange-400 to-orange-500 text-white shadow-lg hover:shadow-2xl transition-all duration-500 ease-in-out transform hover:scale-105 hover:from-orange-500 hover:to-orange-600">
         <Link
           spy={true}

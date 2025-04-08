@@ -37,8 +37,8 @@ const NavbarToggler = () => {
   return (
     <button
       className="block lg:hidden text-2xl sm:text-xl p-3 sm:p-2 
-                 border border-cyan rounded-full bg-white/10 
-                 backdrop-blur-md hover:bg-white/20 
+                 border border-cyan rounded-full bg-white
+                 backdrop-blur-md hover:bg-white
                  hover:border-orange hover:shadow-lg 
                  transition-all duration-300"
       onClick={setToggleMenu}

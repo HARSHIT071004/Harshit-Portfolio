@@ -33,7 +33,7 @@ const SingleSkill = ({ imgSvg, text }) => {
           {imgSvg}
         </div>
         {/* Skill Text */}
-        <p className="text-gray-700 font-semibold text-md">{text}</p>
+        <p className="text-gray-100 font-semibold text-md">{text}</p>
       </div>
       {/* Transparent Background Effect */}
       <div className="w-[70px] h-[100px]  absolute top-6 left-1/2 -translate-x-1/2 -z-10 rounded-xl group-hover:bg-orange-300/30 transition-all duration-400"></div>

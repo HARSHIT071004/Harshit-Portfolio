@@ -113,7 +113,7 @@ const NavbarLinks = () => {
             duration={500}
             offset={-130}
             to={link.section}
-            className="cursor-pointer text-base sm:text-lg hover:text-cyan transition-all duration-500"
+            className="cursor-pointer text-base sm:text-lg hover:text-cyan transition-all text-white duration-500"
           >
             {link.link}
           </Link>

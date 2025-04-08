@@ -19,7 +19,7 @@ const NavbarBtn = () => {
                         bg-gradient-to-r from-darkCyan to-orange 
                         transition-all duration-500 
                         hover:scale-105 hover:border-orange 
-                        hover:shadow-lg hover:shadow-cyan/40">
+                        hover:shadow-lg hover:shadow-cyan/40 text-white">
         Hire Me
         <span className="hidden md:inline">
           <LuArrowDownRight />

@@ -22,12 +22,12 @@ const NavbarLogo = () => {
   return (
     <div className="flex items-center gap-2 sm:gap-3">
       {/* Full name for medium and above screens */}
-      <h1 className="hidden md:block text-[rgb(2,68,48)] font-bold tracking-wide text-2xl">
+      <h1 className="hidden md:block text-[rgb(255,255,255)] font-bold tracking-wide text-2xl">
         Harshit Sharma
       </h1>
 
       {/* Short initials for small screens */}
-      <h1 className="block md:hidden text-[rgb(2,68,48)] font-special font-extrabold text-2xl sm:text-3xl">
+      <h1 className="block md:hidden text-[rgb(255,255,255)] font-special font-extrabold text-2xl sm:text-3xl">
         HS
       </h1>
     </div>
