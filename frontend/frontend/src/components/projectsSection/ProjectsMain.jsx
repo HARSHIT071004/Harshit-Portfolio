@@ -99,17 +99,11 @@ const projects = [
     image: "/images/medicureimage.png",
     link: "https://medicure-alpha.vercel.app/",
   },
-  {
-    name: "HeroVerse",
-    year: "Feb 2025",
-    align: "left",
-    image: "/images/HeroVerse.png",
-    link: "https://heroverse-kappa.vercel.app/",
-  },
+
   {
     name: "EasyStay",
     year: " Mar 2025",
-    align: "right",
+    align: "left",
     image: "/images/easystay.jpg",
     link: "https://easystay-sigma.vercel.app/",
   }
