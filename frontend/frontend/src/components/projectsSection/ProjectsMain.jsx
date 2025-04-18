@@ -110,7 +110,7 @@ const projects = [
     name: "EasyStay",
     year: " Mar 2025",
     align: "right",
-    image: "/images/HeroVerse.png",
+    image: "/images/easystay.jpg",
     link: "https://easystay-sigma.vercel.app/",
   }
 ];
