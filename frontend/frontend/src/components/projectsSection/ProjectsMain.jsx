@@ -89,7 +89,7 @@ const projects = [
     name: "Eveman",
     year: "Jan 2025",
     align: "left",
-    image: "/images/Evemanimage.png",
+    image: "/images/eveman69.jpg",
     link: "https://eveman-two.vercel.app/",
   },
   {
