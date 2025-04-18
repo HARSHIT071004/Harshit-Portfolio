@@ -106,6 +106,13 @@ const projects = [
     image: "/images/HeroVerse.png",
     link: "https://heroverse-kappa.vercel.app/",
   },
+  {
+    name: "EasyStay",
+    year: " Mar 2025",
+    align: "right",
+    image: "/images/HeroVerse.png",
+    link: "https://easystay-sigma.vercel.app/",
+  }
 ];
 
 const ProjectsMain = () => {
