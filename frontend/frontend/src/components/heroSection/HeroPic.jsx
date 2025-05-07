@@ -248,17 +248,17 @@ const HeroPic = () => {
                    lg:h-[400px] lg:w-[400px]"
       >
         {/* Spinning Hexagon */}
-        <div className="absolute inset-0 animate-[spin_20s_linear_infinite] blur-sm">
+        <div className="absolute inset-0 animate-[spin__linear_infinite] blur-sm">
           <PiHexagonThin className="text-cyan h-full w-full" />
         </div>
 
         {/* Centered Image */}
         <img
-          src="/images/harshs.png"
+          src="/images/harshitttt.png"
           alt="Harshit Sharma"
-          className="relative z-[-10] 
-                     h-[120px] sm:h-[160px] md:h-[220px] lg:h-[250px] 
-                     object-cover rounded-[25%]"
+          className="relative z-[-100] 
+                     h-[120px] sm:h-[160px] md:h-[520px] lg:h-[290px] 
+                     object-cover rounded-[15%]"
         />
       </div>
     </motion.div>
