@@ -28,7 +28,7 @@ const HeroPic = () => {
 
         {/* Centered Image */}
         <img
-          src="/images/harshitttt.png"
+          src="/images/harshit2.jpg"
           alt="Harshit Sharma"
           className="relative z-[-100] 
                      h-[100px] sm:h-[120px] md:h-[200px] lg:h-[240px] xl:h-[280px] 
