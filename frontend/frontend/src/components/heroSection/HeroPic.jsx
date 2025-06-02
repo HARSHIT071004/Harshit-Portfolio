@@ -27,16 +27,17 @@ const HeroPic = () => {
         </div>
 
         {/* Centered Image */}
-        <img
-          src="/images/harshu.jpg"
-          alt="Harshit Sharma"
-          className="absolute z-0 
-                     h-[80%] w-[80%] 
-                     object-cover rounded-[15%] 
-                     scale-[0.85] 
-                     border-4 border-white/80 
-                     shadow-lg"
-        />
+       <img
+  src="/images/rudra.png"
+  alt="Harshit Sharma"
+  className="absolute z-0 
+             h-[80%] w-[80%] 
+             object-contain rounded-[15%] 
+             scale-[0.85] 
+          
+             object-top"
+/>
+
       </div>
     </motion.div>
   );
