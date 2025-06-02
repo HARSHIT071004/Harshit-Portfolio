@@ -10,7 +10,7 @@ const HeroPic = () => {
       initial="hidden"
       animate="show"
       className="relative z-[11] flex items-center justify-center w-full 
-                 md:justify-end md:pr-16 overflow:hidden"
+                 md:justify-end md:pr-16 overflow-hidden"
     >
       {/* Hexagon + Image Container */}
       <div
@@ -18,21 +18,24 @@ const HeroPic = () => {
                    h-[160px] w-[160px] 
                    sm:h-[200px] sm:w-[200px] 
                    md:h-[280px] md:w-[280px] 
-                   lg:h-[360px] lg:w-[360px]
+                   lg:h-[360px] lg:w-[360px] 
                    xl:h-[400px] xl:w-[400px]"
       >
         {/* Spinning Hexagon */}
-        <div className="absolute inset-0 animate-[spin__linear_infinite] blur-sm">
-          <PiHexagonThin className="text-cyan h-full w-full" />
+        <div className="absolute inset-0 animate-[spin_10s_linear_infinite] z-10">
+          <PiHexagonThin className="text-cyan-400 h-full w-full drop-shadow-lg" />
         </div>
 
         {/* Centered Image */}
         <img
-          src="/images/harshit2.jpg"
+          src="/images/harshu.jpg"
           alt="Harshit Sharma"
-          className="relative z-[-100] 
-                     h-[100px] sm:h-[120px] md:h-[200px] lg:h-[240px] xl:h-[280px] 
-                     object-cover rounded-[15%]"
+          className="absolute z-0 
+                     h-[80%] w-[80%] 
+                     object-cover rounded-[15%] 
+                     scale-[0.85] 
+                     border-4 border-white/80 
+                     shadow-lg"
         />
       </div>
     </motion.div>
