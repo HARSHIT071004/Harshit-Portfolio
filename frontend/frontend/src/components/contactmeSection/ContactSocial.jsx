@@ -6,7 +6,7 @@ const ContactSocial = () => {
   return (
     <div className="flex justify-center gap-4">
       <SingleContactSocial
-        link="https://www.linkedin.com/in/yourprofile"
+        link="linkedin.com/in/harshit-sharma-10a046318"
         Icon={FaLinkedinIn}
       />
       <SingleContactSocial
@@ -22,3 +22,4 @@ const ContactSocial = () => {
 };
 
 export default ContactSocial;
+// https://github.com/HARSHIT071004
