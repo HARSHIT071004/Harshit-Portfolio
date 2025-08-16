@@ -28,10 +28,10 @@ const HeroPic = () => {
 
         {/* Centered Image */}
        <img
-  src="/images/rudra.png"
+  src="/images/rudrasharma_photo.png"
   alt="Harshit Sharma"
   className="absolute z-0 
-             h-[80%] w-[80%] 
+             h-[70%] w-[80%] 
              object-contain rounded-[15%] 
              scale-[0.85] 
           

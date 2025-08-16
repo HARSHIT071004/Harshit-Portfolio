@@ -244,10 +244,10 @@ const AboutMeMain = () => {
     <div
       id="about"
       className="flex flex-col-reverse md:flex-row items-center justify-between gap-9 px-4 max-w-[1700px] mx-auto mt-12 
-                  bg-[rgb(37,22,22)] backdrop-blur-xl 
-                  border border-[rgba(255,255,255,0.05)] rounded-3xl 
+                  bg-[rgb(0,0,0)] backdrop-blur-xl 
+                  
                   shadow-[0_10px_40px_rgba(0,0,0,0.7)] py-12 
-                  hover:bg-[rgb(37,22,22)] transition-all duration-300"
+                  hover:bg-[rgb(0,0,0)] transition-all duration-300"
     >
       <motion.div
         variants={fadeIn("right", 0)}

@@ -61,7 +61,7 @@ const AboutMeText = () => {
 
 
 <br/>
-      <p className="text-base sm:text-lg md:text-1xl text-[rgb(156,235,255)] leading-relaxed sm:w-full max-w-[600px]">
+      <p className="text-base sm:text-lg md:text-1xl text-[rgb(255,255,255)] leading-relaxed sm:w-full max-w-[600px]">
         I’m Harshit Sharma, a passionate Full-Stack Developer with expertise in the MERN stack (MongoDB, Express.js, React, Node.js). I build scalable, high-performance web apps with responsive frontends and robust backends      </p>
       <button className="border border-white rounded-full py-2 px-4 text-base sm:text-lg flex gap-2 items-center mt-6 bg-gradient-to-r from-orange-400 to-orange-500 text-white shadow-lg hover:shadow-2xl transition-all duration-500 ease-in-out transform hover:scale-105 hover:from-orange-500 hover:to-orange-600">
         <Link

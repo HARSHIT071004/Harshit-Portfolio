@@ -29,7 +29,6 @@ import React from "react";
 const AboutMeImage = () => {
   return (
     <div className="relative w-[200px] h-[300px] md:w-[300px] md:h-[400px]">
-      {/* Image Wrapper */}
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2 rounded-full overflow-hidden w-[200px] h-[200px] md:w-[300px] md:h-[300px]  border-4 ">
         <img
           src="/images/port2.jpg"
@@ -38,7 +37,6 @@ const AboutMeImage = () => {
         />
       </div>
 
-      {/* Decorative Background Shape */}
       <div className="absolute bottom-0 left-0 w-[180px] h-[220px] md:w-[250px] md:h-[300px] bg-orange rounded-bl-[100px] rounded-tr-[100px] rounded-br-[20px] rounded-tl-[20px] -z-10 "></div>
     </div>
   );

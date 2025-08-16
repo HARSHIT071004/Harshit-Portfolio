@@ -129,10 +129,10 @@ const ProjectsMain = () => {
       </motion.div>
       <div
         className="flex flex-col gap-20 max-w-[900px] mx-auto mt-10 
-                  bg-[rgb(236,220,220)] backdrop-blur-xl 
+                  bg-[rgb(0,0,0)] backdrop-blur-xl 
                   border border-[rgba(255,255,255,0.05)] rounded-3xl 
                   shadow-[0_10px_40px_rgba(0,0,0,0.7)] p-6 
-                  hover:bg-[rgba(243,239,239,0.97)] transition-all duration-300"
+                  hover:bg-[rgb(0,0,0)] transition-all duration-300"
       >
         {projects.map((project, index) => (
           <SingleProject

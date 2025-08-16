@@ -31,7 +31,7 @@ const HeroText = () => {
   whileInView="show"
   viewport={{ once: false, amount: 0 }}
   className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl 
-             text-[rgb(2,68,48)] font-extrabold uppercase 
+             text-[rgb(255,255,255)] font-extrabold uppercase 
              leading-tight tracking-tight text-center md:text-left"
 >
   <span className="inline-block mr-2">Harshit</span>
@@ -45,7 +45,7 @@ const HeroText = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
         className="text-sm sm:text-base md:text-lg lg:text-xl 
-                   mt-4 text-[rgb(2,68,48)] leading-relaxed"
+                   mt-4 text-[rgb(244,247,246)] leading-relaxed"
       >
         A Passionate Full-Stack Developer | Eager to Build & Innovate |
         <br className="hidden sm:block" />

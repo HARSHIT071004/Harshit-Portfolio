@@ -21,9 +21,9 @@ const SkillsMain = () => {
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.7 }}
-            className="text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-cyan-900 font-extrabold tracking-wide uppercase drop-shadow-[0_0_12px_rgba(0,255,255,0.7)] font-['Orbitron',_sans-serif]"
+            className="text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white font-extrabold tracking-wide uppercase drop-shadow-[0_0_12px_rgba(0,255,255,0.7)] font-['Orbitron',_sans-serif]"
           >
-            These Are My Foundation Skills
+            These Are My Foundations
           </motion.h2>
         {/* Skills Header */}
         
