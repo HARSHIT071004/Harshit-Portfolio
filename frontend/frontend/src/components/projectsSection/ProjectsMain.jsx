@@ -78,14 +78,7 @@ import { fadeIn } from "../../frameMotion/variant";
 import React from "react";
 
 const projects = [
-  {
-    name: "ScreenScape",
-    year: "Jan 2025",
-    align: "right",
-    image: "/images/Screenscapeimage.png",
-    link: "https://sceenscape.vercel.app/",
-  },
-  {
+ {
     name: "Eveman",
     year: "Jan 2025",
     align: "left",
@@ -99,7 +92,13 @@ const projects = [
     image: "/images/medicureimage.png",
     link: "https://medicure-alpha.vercel.app/",
   },
-
+   {
+    name: "ScreenScape",
+    year: "Jan 2025",
+    align: "right",
+    image: "/images/Screenscapeimage.png",
+    link: "https://sceenscape.vercel.app/",
+  },
   {
     name: "EasyStay",
     year: " Mar 2025",

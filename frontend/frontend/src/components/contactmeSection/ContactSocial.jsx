@@ -10,7 +10,7 @@ const ContactSocial = () => {
         Icon={FaLinkedinIn}
       />
       <SingleContactSocial
-        link="https://github.com/yourusername"
+        link="https://github.com/HARSHIT071004"
         Icon={FaGithub}
       />
       <SingleContactSocial
