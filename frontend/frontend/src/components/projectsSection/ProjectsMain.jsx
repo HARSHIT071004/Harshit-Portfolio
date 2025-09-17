@@ -81,14 +81,14 @@ const projects = [
  {
     name: "Eveman",
     year: "Jan 2025",
-    align: "left",
+    align: "right",
     image: "/images/eveman69.jpg",
     link: "https://eveman-two.vercel.app/",
   },
   {
     name: "Medicure",
     year: "Jan 2025",
-    align: "right",
+    align: "left",
     image: "/images/medicureimage.png",
     link: "https://medicure-alpha.vercel.app/",
   },
